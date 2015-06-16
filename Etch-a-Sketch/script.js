@@ -6,7 +6,7 @@ var num = 1;
 for (var i =0; i < 16; i++) {
 	for (var j=0; j < 16; j++) {
 
-	container.append( $('<div id="div' + num + ' "></div>').addClass('box'));
+	container.append( $('<div id="div' + num + '"></div>').addClass('box'));
 	num++;
 	}
 }
@@ -28,11 +28,18 @@ $('#div1').mouseenter(function() {
 
 });
 
+*/ 
+
 boxClass.mouseleave(function() {
 
-	$('this').css({"background": "black"});
+	var hov = $(this).attr('id');
+	console.log(hov);
+	//$('#' + hov).css("background-color","black");
+	$('#' + hov).removeClass('box').addClass('blackBox');
+	//$('#' + hov).addClass('blackBox');
+	
 
 });
-*/
+
 
 });
