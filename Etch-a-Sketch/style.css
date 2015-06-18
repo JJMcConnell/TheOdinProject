@@ -1,9 +1,13 @@
 
+#newSketch {
+
+
+}
 
 .container {
 	border: 1px solid black;
-	height: 550px;
-	width: 550px;
+	height: 960px;
+	width: 960px;
 	padding: 0;
 	
 	/* text-align: center; */
@@ -23,12 +27,23 @@
 	/* display: inline-block; */
 }
 
-.box:hover {
+/*.box:hover {
 	background: black;
-}
+} */
 
 .blackBox {
 
 	float: left;
 	background: black;
+}
+
+.colorBox {
+	float: left;
+
+}
+
+.opacityBox {
+	float: left;
+	background-color: black;
+	opacity: 0;
 }
