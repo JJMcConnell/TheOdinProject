@@ -1,35 +1,58 @@
 
-#newSketch {
-
-
-}
 
 .container {
 	border: 1px solid black;
 	height: 960px;
 	width: 960px;
 	padding: 0;
-	
-	/* text-align: center; */
-
 	margin-left: auto;
 	margin-right: auto;
-	/* table-layout: fixed; */
+	
+}
+
+#buttonWrapper {
+	text-align: center;
+	margin: 10px;
+}
+
+#titleWrapper {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif;
+	font-size: 60px;
+	margin: 5px;
+	display: inline-block;
+}
+
+button {
+	border-radius: 0.317rem;
+	background-color: #000;
+	font-weight: 700;
+	font-size: 1rem;
+  	line-height: 1.5;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+  	padding: 0.75rem 1rem;
+	border: 0;
+}
+
+button:hover {
+	background-color: #545454;
+}
+
+button:focus {
+	outline: none;
 }
 
 .box {
- /* border: 1px solid black; 
-	height: 10px;
-	width: 10px; */
-
+ 
 	float: left;
-
-	/* display: inline-block; */
 }
-
-/*.box:hover {
-	background: black;
-} */
 
 .blackBox {
 
