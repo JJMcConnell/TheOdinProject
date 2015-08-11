@@ -45,14 +45,13 @@ class MicroBlogger
 	end
 
 	def everyones_last_tweet
-		friends = @client.friends
+		friends = @client.friends.sort_by {|friend| @client.user(friend).screen_name.downcase}
 		friends.each do |friend|
 			last_tweet = @client.user(friend).status.text.to_s
 			person = @client.user(friend).name.to_s
-			puts "#{person}'s last tweet was"
+			time = @client.user(friend).status.created_at.strftime("%A, %b %d")
+			puts "#{person}'s last tweet on #{time} was"
 			puts "#{last_tweet}"
-			#puts @client.user(friend).screen_name
-			#puts @client.user(friend).status.text
 			puts ""
 		end
 	end
