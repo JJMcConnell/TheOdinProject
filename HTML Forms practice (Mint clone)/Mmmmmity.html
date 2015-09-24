@@ -22,10 +22,54 @@
 	 				</ul>
 	 			</h2>
 	 		</nav>  
-
 	 	</header>
 
 	 	<main>
+	 		<h1>Create a new account</h1>
+
+	 		<section>
+	 			<form>
+	 				<ol>
+	 					<li>
+	 						<label for="email">Your Email</label>
+	 						<input id="email" name="email" maxlength="255" type="text" value>
+	 					</li>
+	 					<li>
+	 						<label for="emailConfirm">Confirm Email</label>
+	 						<input id="emailConfirm" name="emailConfirm" maxlength="255" type="text" value>
+	 					</li>
+	 					<li>
+	 						<label for="country">Country</label>
+	 						<select id="country" name="country">
+	 							<optgroup>
+	 								<option value="US">United States
+	 								</option>
+	 								<option value="CA">Canada
+	 								</option>
+	 							</optgroup>
+	 						</select>
+	 					</li>
+	 					<li>
+	 						<label id="zipcodeLabel">Zip Code</label>
+	 						<input id="zipcode" name="zipcode" type="text" maxlength="5">
+	 					</li>
+	 					<li>
+	 						<label for="password">Password</label>
+	 						<input id="password" name="password" type="password" maxlength="32" value>
+	 					</li>
+	 					<li>
+	 						<label for="passwordConfirm">Confirm Password</label>
+	 						<input id="passwordConfirm" name="passwordConfirm" type="password" maxlength="32" value>
+	 					</li>
+	 					<li>
+	 						<input id="terms" name="terms" type="checkbox" value>
+	 						<label id="termslabel" for="terms">Yes, I agree to the Mint </label>
+	 						<a href="https://www.mint.com/how-it-works/security/terms/">Terms of Use</a>
+	 					</li>
+	 				</ol>
+
+	 			</form>
+	 		</section>
 
 	 		<aside>
 
