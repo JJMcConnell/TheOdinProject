@@ -132,3 +132,78 @@ main h1 {
 	font-weight: bold;
 	color: #333;
 }
+
+section {
+	display: inline-block;
+	width: 350px;
+}
+
+section ol, section li {
+	margin-bottom: 27px;
+}
+
+label {
+	font-size: 14px;
+	color: #333;
+	display: block;
+	padding-bottom: 5px;
+	height: 18px;
+	font-family: "Helvetica Neue" , Helvetica, sans-serif;
+}
+
+input:focus {
+	outline: 0;
+}
+
+input {
+	width: 260px;
+	height: 24px;
+	box-shadow: 0, 1px, 1px, rgba(0, 0, 0, 0.1) inset;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	color: #666;
+	padding: 2px;
+}
+
+select {
+	width: 270px;
+	height: 30px;
+	border-radius: 0px;
+	border-color: rgb(169, 169, 169);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+	padding-left: 5px;
+	color: #666;
+	padding: 2px;
+
+
+}
+
+#zipcode {
+	width: 74px;
+}
+
+input[type="checkbox"] {
+	width: initial;
+	height: initial;
+	vertical-align: baseline;
+	margin-right: 2px;
+	position: relative;
+	top: -1px;
+}
+
+.terms {
+	display: inline;
+	position: static;
+	padding-bottom: 0px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;	
+	font-family: "Helvetica Neue" , Helvetica, sans-serif;
+
+}
+
+.terms a {
+	font-size: 14px;
+	
+}
