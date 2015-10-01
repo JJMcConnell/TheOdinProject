@@ -175,8 +175,6 @@ select {
 	padding-left: 5px;
 	color: #666;
 	padding: 2px;
-
-
 }
 
 #zipcode {
@@ -204,6 +202,24 @@ input[type="checkbox"] {
 }
 
 .terms a {
-	font-size: 14px;
+	font-size: 14px;	
+}
+
+button {
+	color: #fff;
+	background-color: #45cae6;
+	display: inline-block;
+	border: none;
+	font-family: "Helvetica Neue" , Helvetica, sans-serif;
+	line-height: 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	text-align: center;
+	padding: 13px 20px 11px 20px;
+	font-size: 13px;
+	text-decoration: none;
+	margin: 0;
+	min-width: 85px;
 	
 }
