@@ -232,8 +232,9 @@ aside {
 	margin-left: 38px;
 	display: inline-block;
 	vertical-align: top;
-	float: right;
 	position: absolute;
+	
+
 }
 
 .square {
@@ -241,7 +242,7 @@ aside {
 	color: #555;
 	font-size: 14px;
 	margin-left: 25px;
-	height: 140px;
+	height: 130px;
 	padding-bottom: 19px;
 	padding-right: 17px;
 	padding-top: 21px;
@@ -266,4 +267,58 @@ aside {
 	color: #666; 
 	font-size: 11px;
 	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	width: 690px;
+	height: 186px;
+	color: #333;
+	line-height: 24px;
+	padding: 20px 0 25px;
+	text-align: center;
+	font-size: 9px;
+}
+
+.links li{
+	display: inline-block;
+	border: medium none;
+	font: 200 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	padding: 0 12px;
+}
+
+.links a {
+	color: #666;
+}
+
+#ssl-nort {
+	margin-right: 20px;
+  	background-position: 0px -178px;
+  	display: inline-block;
+  	height: 58px;
+  	text-indent: -9999px;
+  	width: 124px;
+  	background-image: url("https://images.mint.com/web-client/images/security-sacbbe957cd.png");
+  	background-repeat: no-repeat;
+}
+
+#ssl-truste {
+	margin-left: 20px;
+  	background-position: 0px -126px;
+  	display: inline-block;
+  	height: 52px;
+  	text-indent: -9999px;
+  	width: 160px;
+  	background-image: url("https://images.mint.com/web-client/images/security-sacbbe957cd.png");
+  	background-repeat: no-repeat;
+
+}
+
+footer p {
+	border: medium none;
+	font: 200 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: normal;
+	color: #999;
+	margin-bottom: 0px;
 }
