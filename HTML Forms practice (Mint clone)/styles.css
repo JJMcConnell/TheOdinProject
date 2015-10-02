@@ -72,6 +72,7 @@ header {
 
 
 #logo {
+  background-image: url("https://images.mint.com/web-client/images/mint-logo.svg"); 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% auto;
