@@ -124,6 +124,8 @@ main {
 	min-height: 330px;
 	padding: 43px 50px 50px;
 	position: relative;
+	clear: both;
+	overflow: hidden;
 }
 
 main h1 {
@@ -136,6 +138,13 @@ main h1 {
 section {
 	display: inline-block;
 	width: 350px;
+
+
+}
+
+form {
+	float: left;
+
 }
 
 section ol, section li {
@@ -229,12 +238,12 @@ aside {
 	height: 528px;
 	border-left: solid 1px #d3d3d3;
 	vertical-align: top;
-	margin-left: 38px;
-	display: inline-block;
-	vertical-align: top;
-	position: absolute;
 	
+	/* display: inline-block;
+	
+	position: absolute; */
 
+	float: right;
 }
 
 .square {
@@ -247,6 +256,7 @@ aside {
 	padding-right: 17px;
 	padding-top: 21px;
 	padding-left: 40px;
+
 }
 
 .square h2 {
@@ -278,13 +288,14 @@ footer {
 	padding: 20px 0 25px;
 	text-align: center;
 	font-size: 9px;
+
+	clear: both;
 }
 
 .links li{
 	display: inline-block;
 	border: medium none;
 	font: 200 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	
 	padding: 0 12px;
 }
 
@@ -312,7 +323,6 @@ footer {
   	width: 160px;
   	background-image: url("https://images.mint.com/web-client/images/security-sacbbe957cd.png");
   	background-repeat: no-repeat;
-
 }
 
 footer p {
